@@ -9,3 +9,12 @@ local and non-local correlations among the spectral image. Our data-driven prior
 Then, we propose to unroll the reconstruction problem into an optimization-inspired deep neural network. The architecture of the network has high interpretability by explicitly
 characterizing the image correlation and the system imaging model. Finally, we learn the complete parameters in the network through end-to-end training, enabling robust
 performance with high spatial-spectral fidelity. 
+
+
+![](https://github.com/wang-lizhi/DeepNonlocalUnrolling/blob/master/DNU-network.png)
+
+Figure 1. llustration of the proposed neural network 
+
+![](https://github.com/wang-lizhi/DeepNonlocalUnrolling/blob/master/Non-local%20prior%20network.png)
+
+Figure 2. Architecture of the spectral image prior network.
