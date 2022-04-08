@@ -26,9 +26,9 @@ To train the DNU model for hyperspectral imaging, the datasets should be downloa
 In synthetic simulations, for  ICVL dataset,  you can randomly select 100 spectral images for training and 50 spectral images for testing.  For  Harvard dataset, you should remove 6 deteriorated spectral images with large-area saturated pixels, and randomly select 35 spectral images for training and 9 spectral images for testing.
 The training and test images in the ICVL dataset and  Harvard dataset are 48 * 48 inclined image blocks. 
 
-In semi-physical simulations,  the CAVE dataset is used for training and the KAIST dataset is used for test. Then, you should modify the original CAVE and KAIST datasets by spectral interpolation, which have 28 spectral bands ranging from 450nm to 650nm. The patch size for training is 48*48, and the patch size for test is 256*256.
+In semi-physical simulations,  the CAVE dataset is used for training and the KAIST dataset is used for test. Then, you should modify the original CAVE and KAIST datasets by spectral interpolation, which have 28 spectral bands ranging from 450nm to 650nm. The patch size for training is 48 * 48, and the patch size for test is 256 * 256.
 
-The **Cu_48.mat** and  "mask.mat" in **./mask/** are used for synthetic simulations and semi-physical simulations respectively.
+The **Cu_48.mat** and  **mask.mat** in **./mask/** are used for synthetic simulations and semi-physical simulations respectively.
 
 Finally, edit the ```DATASET_PATH``` and ```MASK_PATH``` in **train.py** to indicate the name and path to your dataset and mask. Here is an example:
 ```
