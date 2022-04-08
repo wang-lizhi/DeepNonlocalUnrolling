@@ -2,9 +2,9 @@
 
 This repository provides the code for the papers:
 
-"DNU: Deep Non-local Unrolling for Computational Spectral Imaging", CVPR 2020.
+Long verison: Deep Unrolling for Computational Spectral Imaging, TPAMI under review.
 
-"Deep Unrolling for Computational Spectral Imaging", Submitted to TPAMI.
+Short verison: DNU: Deep Non-local Unrolling for Computational Spectral Imaging, CVPR 2020.
 
 ## Environment
 
