@@ -1,7 +1,9 @@
 # DNU
 
-This repository provides the code for the papers 
+This repository provides the code for the papers:
+
 *DNU: Deep Non-local Unrolling for Computational Spectral Imaging* (CVPR 2020)
+
 *Deep Unrolling for Computational Spectral Imaging* (Submitted to TPAMI)
 
 ## Environment
