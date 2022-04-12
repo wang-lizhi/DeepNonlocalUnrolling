@@ -4,7 +4,7 @@ This repository provides the code for the following papers.
 
 **Long verison:**
 
-Deep Unrolling for Computational Spectral Imaging, TPAMI under review.
+Deep Unrolling for Computational Spectral Imaging, IEEE TPAMI (under review).
 
 **Short verison:**
 
